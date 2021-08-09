@@ -14,15 +14,15 @@
 
     <form action="">
         <label for="username">Challenger Name:</label><br>
-        <input type="text" placeholder='enter name..' id="username">
+        <input type="text" placeholder='enter name..' id="username" required>
         <br><br>
 
         <label for="email">Enter email:</label><br>
-        <input type="email" placeholder='Example@***.com' name="email" id="email">
+        <input type="email" placeholder='your email' name="email" id="email" required>
         <br><br>
 
         <label for="password">Enter password:</label><br>
-        <input type="password" placeholder='passwd' name="password" id="password"><br>
+        <input required type="password" placeholder='passwd' name="password" id="password"><br>
 
 
         <p>Select your age:</p>
@@ -48,7 +48,7 @@
 
         <label for="answer">Security Question Answer:</label>
 
-        <input type="text" placeholder="???" name="answer" id="answer">
+        <input type="text" placeholder="???" name="SecAnswer" id="SecAnswer" required>
         <br><br>
 
 
@@ -56,6 +56,8 @@
 
         <textarea name="bio" id="bio" cols="30" rows="10" placeholder="about you..."></textarea>
 
+
+        <br><br>
         <input type="submit" name="" id="" value="submit the form">
     </form>
 </body>
