@@ -1,6 +1,6 @@
 # dot-fighter project
 
-Dot-fighter is text and turn-based strategy with horror elements in an odd dimension.
+Dot-fighter is text and turn-based strategy with horror elements and pacing in an odd dimension.
 
 ## Character Design Guide
 
