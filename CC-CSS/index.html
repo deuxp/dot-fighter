@@ -10,15 +10,20 @@
 
 <body>
     <h1>dot-fighter</h1>
+
+
     <form action="">
         <label for="username">Challenger Name:</label><br>
-        <input type="text" id="username">
+        <input type="text" placeholder='enter name..' id="username">
         <br><br>
+
         <label for="email">Enter email:</label><br>
-        <input type="email" name="email" id="email">
+        <input type="email" placeholder='Example@***.com' name="email" id="email">
         <br><br>
+
         <label for="password">Enter password:</label><br>
-        <input type="password" name="password" id="password"><br>
+        <input type="password" placeholder='passwd' name="password" id="password"><br>
+
 
         <p>Select your age:</p>
 
@@ -28,20 +33,30 @@
         <label for="r2">26-50</label>
         <input type="radio" name="age" id="r3" value="50+">
         <label for="r3">50+</label>
-
         <br><br>
 
+
         <label for="question">Security Question:</label>
+
         <select name="question" id="question">
             <option value="q1">what colour are your favourite pair of socks?</option>
             <option value="q2">if you could be a vegetable, what it be?</option>
             <option value="q3">what is your best ever security question?</option>
         </select>
-
         <br><br>
 
+
         <label for="answer">Security Question Answer:</label>
-        <input type="text" name="answer" id="answer">
+
+        <input type="text" placeholder="???" name="answer" id="answer">
+        <br><br>
+
+
+        <label for="bio">Your bio:</label><br>
+
+        <textarea name="bio" id="bio" cols="30" rows="10" placeholder="about you..."></textarea>
+
+        <input type="submit" name="" id="" value="submit the form">
     </form>
 </body>
 
