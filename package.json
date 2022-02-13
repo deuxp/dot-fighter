@@ -1,0 +1,29 @@
+{
+  "name": "dot-fighter2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "local": "./node_modules/.bin/nodemon -L --ignore public/",
+    "db:reset": "node bin/resetdb.js",
+    "swatch": "sass --watch sass:public/styles"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "cookie-session": "^2.0.0",
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "morgan": "^1.10.0",
+    "pg": "^8.7.3",
+    "sass": "^1.49.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

@@ -1,0 +1,26 @@
+body {
+  background-color: #9e9ed4;
+}
+
+nav {
+  width: 100vw;
+  height: 150px;
+  background-color: #5b5ba1;
+  margin: 0;
+}
+
+.index-container {
+  display: flex;
+  justify-content: center;
+  background-color: #93a9ce;
+  margin: auto;
+  width: 80%;
+}
+
+.outer-text {
+  margin: 0;
+  padding: 0;
+  background-color: #e0c7c7;
+}
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,27 @@
+$nav-back: rgb(91, 91, 161);
+$main-bg: rgb(147, 169, 206);
+
+body {
+  background-color: rgb(158, 158, 212);
+}
+
+nav {
+  width: 100vw;
+  height: 150px;
+  background-color: $nav-back;
+  margin: 0;
+}
+
+.index-container {
+  display: flex;
+  justify-content: center;
+  background-color: $main-bg;
+  margin: auto;
+  width: 80%;
+}
+
+.outer-text {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(224, 199, 199);
+}
